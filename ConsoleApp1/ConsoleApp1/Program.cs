@@ -11,7 +11,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string folder = @"C:\Users\opilane\Desktop\PT\Märkmed\";
+            string folder = @"C:\Märkmed\";
             FileInfo[] Files = new DirectoryInfo(folder).GetFiles("*.txt");
             Console.WriteLine("Olemasolevad failid:");
             foreach (FileInfo file in Files)
